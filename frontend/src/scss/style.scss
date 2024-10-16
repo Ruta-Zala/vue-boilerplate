@@ -1,0 +1,25 @@
+@import './variables';
+@import 'vuetify/styles/main.sass';
+@import './override';
+@import './layout/container';
+@import './layout/sidebar';
+@import './layout/topbar';
+@import './components/VButtons';
+@import './components/VCard';
+@import './components/VInput';
+@import './components/VNavigationDrawer';
+@import './components/VShadow';
+@import './components/VTextField';
+@import './pages/dashboards';
+@import './pages/authentication';
+
+@media (min-width: 1536px) {
+    .v-container {
+        max-width: 1536px;
+    }
+}
+
+.landing-page-app .v-application__wrap {
+    background-color: white;
+    font-family: Alegreya Sans, sans-serif;
+}
